@@ -1,0 +1,12 @@
+# download command/URL (optional)
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: Dataset/wider_yolo/images_train.txt
+val: Dataset/wider_yolo/images_val.txt
+
+# number of classes
+nc: 1
+
+# class names
+names: ['face']
+
